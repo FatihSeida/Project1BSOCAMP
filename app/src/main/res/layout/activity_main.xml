@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#595353"
+    android:gravity="center"
+ tools:context="camp.bso.inf.project1bsocamp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textA"
+            android:gravity="center"
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:background="#696060"
+            android:text=" 0 "
+            android:textColor="#ffffff"
+            android:textSize="36sp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:background="#003cff"
+            android:text=" - PERSIB BANDUNG"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_details1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#696060"
+            android:textColor="#ffffff"
+            android:text="Details" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/plusA"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/minusA"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:text="-" />
+
+        <TextView
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="VS"
+            android:textSize="48sp" />
+
+        <Button
+            android:id="@+id/minusB"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/plusB"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:text="+" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_details2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#696060"
+            android:text="Details"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:background="#ff6a00"
+            android:gravity="center"
+            android:text="PERSIJA JAKARTA - "
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textB"
+            android:gravity="center"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:background="#696060"
+            android:text=" 0 "
+            android:textSize="36sp"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESET"
+            />
+        <Button
+            android:id="@+id/berita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BERITA"
+            />
+        <Button
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAP"
+            />
+    </LinearLayout>
+</LinearLayout>

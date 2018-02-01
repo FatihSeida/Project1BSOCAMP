@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="camp.bso.inf.project1bsocamp.DetailActivity1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/tentang1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="Persib Bandung or commonly known as Persib [per sib], is a professional football club based in Bandung, West Java, Indonesia, which currently competes in the highest tier of Indonesian football, the Liga 1. The club was founded in June 1933 from a merger of three clubs. Since the beginning of Liga Indonesia era, the club has never been relegated from the top-flight league. Their current home stadium is the new Gelora Bandung Lautan Api Stadium which has a capacity of 38,000 spectators. The club is widely known by their nickname, which is Maung Bandung (The Bandung Tigers) and Pangeran Biru (The Blue Prince). They recently won their first Indonesia Super League (Now known as Liga 1) title in 2014, their first title of the newly formed Liga Indonesia in 1995, and 5 Perserikatan titles. The club also managed to reach the quarter-finals of the Asian Club Championship (Now AFC Champions League) in 1995 and in recent years is rising rapidly in overall performance." />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LINE UP"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Muhammad Natshir (GK)"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Bojan Mališić (DF)"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Michael Essien (MF)"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Tony Sucipto (DF)"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Atep Rizal (C)(MF)"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Gian Zola(MF)"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Airlangga Sutjipto(FW)"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Ezechiel N'Douassel (FW)"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Dedi Kusnandar (MF)"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Henhen Herdiana (DF)"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Febri Haryadi (MF)"
+            android:textSize="12sp"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
